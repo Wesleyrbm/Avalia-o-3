@@ -1,0 +1,115 @@
+body{
+    background-color: #222;
+    color: white;
+}
+header h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+nav ul{
+     list-style: none;
+     display: flex;
+     font-size:1.5rem;
+        justify-content: center;
+}
+nav ul li{
+    margin-right: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #ffff00;
+}
+main{
+    text-align: center;
+}
+main section{
+    margin: 2rem 0;
+}
+main section h2{
+    font-size: 2rem;
+}
+main section p{
+    font-size: 1.5rem;
+}
+main section img{
+    width: 100%;
+    height: 100%;
+}
+main section form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+main section form input, button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+main section form button{
+    border-color:#333;
+    background-color: #333;
+    color: white;
+    cursor: pointer;    
+}
+main section form button:hover{
+    background-color: #ff0;
+    color:#333;
+}
+main section table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:10px;
+}
+main section table th{
+    background-color: #222;
+    color: white;
+}
+main section table td{
+    text-align: center;
+    padding: 10px;
+}
+main section table tr:nth-child(even){
+    background-color: #444;
+}
+main section table tr:hover{
+    background-color: #ff0;
+    color:#333;
+}
+main section table td a{
+    text-decoration: none;
+    color: white;
+}
+main section table td a:hover{
+    color: #333;
+}
+main section table td button{
+    border-color:#333;
+    background-color: #333;
+    color: white;
+    cursor: pointer;    
+}
+main section table td button:hover{
+    background-color: #ff0;
+    color:#333;
+}
+main section table td button a{
+    text-decoration: none;
+    color: white;
+}
+main section table td button a:hover{
+    color: #333;
+}
+main section table td button a i{
+    margin-right:10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
